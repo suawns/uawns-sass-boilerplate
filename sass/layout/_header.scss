@@ -1,0 +1,25 @@
+/**
+ *----------------------------------------------------------------
+ * Header styles.
+ *----------------------------------------------------------------
+ ***/
+
+/*.fuse-nav-menu{
+ 	li{
+ 		a{
+ 			font-size: 16px;
+		}
+	}
+}
+*/
+
+header{
+	width: 100%;
+	height: 100vh;
+background: #1476bb; /* Old browsers */
+background: -moz-linear-gradient(top, #1476bb 0%, #2bbdb5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1476bb 0%,#2bbdb5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1476bb 0%,#2bbdb5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1476bb', endColorstr='#2bbdb5',GradientType=0 ); /* IE6-9 */
+}
+

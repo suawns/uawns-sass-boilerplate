@@ -1,0 +1,16 @@
+/**
+ *----------------------------------------------------------------
+ * Dividers styles
+ *----------------------------------------------------------------
+ **/
+
+ hr{
+ 	height: 1px;
+ 	margin: 21px 0 0 0;
+ 	border:0;
+ 	background-color:$color-light;
+ 	&.hr{
+ 		margin: 0;
+ 		background-color:$color-light;
+ 	}
+ }

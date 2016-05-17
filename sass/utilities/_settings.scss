@@ -1,0 +1,64 @@
+/**
+ *----------------------------------------------------------------
+ * Settings styles
+ *----------------------------------------------------------------
+ **/
+
+/*      Typography    */
+
+$base-font-size: 12px;
+$base-font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+$baseline: $base-font-size * 1.5;
+
+/*     Colors      */
+
+/*     links colors      */
+$color-link: #2074B9;
+$color-hover:#0F62AC;
+$color-darkbg:#DFE4EE;
+$color-lightbg:#C9D1DE;
+$color-text: #333333;
+$color-lighttext: #595959;
+$color-light:#999;
+$color-dark:#555; 
+$color-verylight:#eee;
+$color-default:#2074B9;
+$color-grey:#565658;
+$color-darkblue: #0f4766;
+
+/*     color sign      */
+
+$color-success:#9FCD57;
+$color-alert:#F26B40;
+$color-warn:#FEC441;
+
+$color-yellow:#FEC441;
+$color-darkyellow: #F5A133;
+
+$color-green:#9FCD57;
+$color-darkgreen:#6EBA4F;
+
+$color-blue:#2074B9;
+$color-darkblue:#0F62AC;
+
+
+$color-red:#F26B40;
+$color-darkred:#F75828;
+
+$color-pink:#DC4999;
+$color-darkpink:#CC3176;
+
+$color-skyblue:#00B1A9;
+$color-darkskyblue:#0E9580;
+
+/*     table color      */
+$color-table-border:#e9eef2;
+
+/*     Positioning      */
+
+$margin-multiplier: 2;
+$general-margin:$baseline * $margin-multiplier;
+
+
+/*     border radius      */
+$border-radius:4px;

@@ -1,0 +1,143 @@
+/**
+ *----------------------------------------------------------------
+ * Utilities styles
+ *----------------------------------------------------------------
+ **/
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+.align-left{
+	@include float-left;
+}
+
+.align-right{
+	@include float-right;
+}
+
+.clearfix{
+	@include clearfix;
+}
+
+.white-text{
+	color: #ffffff;
+}
+
+ /*     Color Message code      */
+
+ .warn{
+ 	background: $color-warn;
+ 	color: #fff;
+ }
+
+ .success{
+ 	background: $color-success;
+ 	color: #fff;
+ }
+
+ .alert {
+ 	background: $color-alert;
+ 	color: #fff;
+ }
+
+ .warn-c{
+ 	color: $color-warn;
+ }
+
+ .success-c{
+ 	color: $color-success;
+ }
+
+ .alert-c {
+ 	color: $color-alert;
+ }
+
+ .warn-o{
+ 	border:1px solid $color-warn;
+ }
+
+ .success-o{
+ 	border:1px solid $color-success;
+ }
+
+ .alert-o {
+ 	border:1px solid $color-alert;
+ }
+ .no-space{
+ 	margin:0;
+ 	padding: 0;
+ }
+
+.green-bg{
+	background-color: $color-green;
+	color: #fff;
+	&:hover{
+		background-color: $color-darkgreen;
+	}
+}
+
+.yellow-bg{
+	background-color: $color-yellow;
+	color: #fff;
+	&:hover,&:focus,&:active{
+		background-color: $color-darkyellow;
+		color: #fff;
+	}
+}
+
+.skyblue-bg{
+	background-color: $color-skyblue;
+	color: #fff;
+	&:hover,&:focus,&:active{
+		background-color: $color-darkskyblue;
+		color: #fff;
+	}
+}
+
+.red-bg{
+	background-color: $color-red;
+	color: #fff;
+	&:hover,&:focus,&:active{
+		background-color: $color-darkred;
+		color: #fff;
+	}
+}
+
+.blue-bg{
+	background-color: $color-blue;
+	color: #fff;
+	&:hover,&:focus,&:active{
+		background-color: $color-darkblue;
+		color: #fff;
+	}
+}
+
+.yellow{
+	background-color: $color-yellow;
+	color: #fff;
+}
+
+.red{
+	background-color: $color-red;
+	color: #fff;
+}
+.blue{
+	background-color: $color-blue;
+	color: #fff;
+}
+.green{
+	background-color: $color-green;
+	color: #fff;
+}
+.skyblue{
+	background-color: $color-skyblue;
+	color: #fff;
+}

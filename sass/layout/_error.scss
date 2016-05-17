@@ -1,0 +1,65 @@
+/**
+ *----------------------------------------------------------------
+ * 500/400 Error Page CSS
+ *----------------------------------------------------------------
+ **/
+ 
+	.error-section{
+		display: table;
+		width: 100%;
+    	min-height: 100%;
+		.container{
+			display: table-cell;
+			vertical-align: middle;
+
+		}
+	}
+
+	.error{
+		text-align: center;
+		height: 100%;
+		img.img-500{
+			max-width: 250px;
+		}
+		img.img-404{
+			max-width: 150px;
+		}
+		h1{
+			font-weight: bold;
+			font-size: 3em;
+		}
+		h5{
+			padding: 0 30%;
+			font-size: 18px;
+			padding-bottom: 30px;
+			line-height: 26px;
+		}
+		button {
+			background-color: transparent;
+			color: $color-link;
+			padding: 0;
+			font-weight: bold;
+			border-radius: 15px;
+		    box-shadow: none;
+		    border: 0;
+			&:hover, &:active {
+				background-color: transparent;
+				color: $color-hover;
+			}
+
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.error {
+			h1{
+				font-size: 1.5em;
+			}
+			h5{ 
+				padding: 0 10px;
+		    	font-size: 14px;
+		    	line-height: 21px;
+		    	padding-bottom: 20px;
+			}
+		}
+	}

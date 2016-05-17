@@ -1,0 +1,54 @@
+/**
+ *----------------------------------------------------------------
+Template : Fusemachines Website;
+Author: Rajat Singh;
+Author's twitter: @rzqs;
+Description: this is web framework for Fusemachines Website. It's based on Bootstrap v3.3.5 gridsystem, the css structure is based on SMACSS;
+template version: 0.1;
+Date: 1 Sept 2015;
+ *----------------------------------------------------------------
+ **/
+
+/*     Compass      */
+@import "compass";
+
+/*     Bootstrap      */
+@import "bootstrap/bootstrap";
+
+/*     Utilities      */
+@import "utilities/settings";
+@import "utilities/utilities";
+
+/*     Base      */
+// @import "base/normalize";
+@import "base/base";
+
+/*      Fonts     */
+
+
+@import "fonts/font-awesome";
+
+/*     Layouts      */
+@import "layout/nav";
+@import "layout/header";
+// @import "layout/main-section";
+@import "layout/data-section";
+@import "layout/footer";
+@import "layout/login";
+@import "layout/error";
+
+
+/*     Modules      */
+@import "modules/btn";
+@import "modules/dividers";
+@import "modules/forms";
+@import "modules/misc";
+@import "modules/tables";
+@import "modules/dropdown";
+@import "modules/transitions";
+@import "modules/checkbox";
+// @import "modules/scrollbar";
+@import "modules/disabled";
+@import "modules/slider";
+@import "modules/notification";
+@import "modules/eula";
